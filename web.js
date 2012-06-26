@@ -1,6 +1,7 @@
 var express    = require('express'),
     requestObj = require('request'),
-    http       = require('http');
+    http       = require('http'),
+    crypto     = require('crypto');
 
 var userize = require('./userize');
 
