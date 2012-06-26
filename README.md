@@ -4,6 +4,8 @@
 
 This is a very BETA project to abstract the storage and authentication requirements for basic user features on an API. This is not a full service authentication module. This is designed for rapid prototyping and is inspired upon the features available in the backlift.com user authentication project.
 
+Too many times I have needed a drop in restful API login feature. This project, which might be a dup of an existing project, is designed to be a micro module and boilerplate for basic features. 
+
 ## Login
 This enables a public login route `/api/login` to setup a session.
 
