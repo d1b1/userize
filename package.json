@@ -1,0 +1,17 @@
+{
+  "name": "Userize",
+  "version": "0.0.1",
+  "description": "Ulta-light weight node.js API for basic user login, registration and profiles.",
+  "engines": {
+    "node": "0.6.17",
+    "npm": "1.1.9"
+  },
+  "dependencies": {
+    "express": "2.5.9",
+    "request": "2.9.202",
+    "couchdb-api": "1.1.4",
+  },
+  "scripts": {
+    "start": "web.js"
+  }
+}
