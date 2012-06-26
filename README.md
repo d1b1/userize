@@ -1,5 +1,7 @@
 ## Userize
 
+[![Build Status](https://secure.travis-ci.org/d1b1/userize.png?branch=master)](http://travis-ci.org/d1b1/userize)
+
 This is a very BETA project to abstract the storage and authentication requirements for basic user features on an API. This is not a full service authentication module. This is designed for rapid prototyping and is inspired upon the features available in the backlift.com user authentication project.
 
 ## Login
@@ -29,5 +31,3 @@ The following are pending configuration options.
 
 ## Installation
 This module is not ready for `npm`. Once it completed and submitted, it will installable using. `npm install userize`
-
-Travis Link
