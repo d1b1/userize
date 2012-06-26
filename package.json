@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "2.5.9",
     "request": "2.9.202",
-    "couchdb-api": "1.1.4",
+    "couchdb-api": "1.1.4"
   },
   "scripts": {
     "start": "web.js"
