@@ -63,6 +63,28 @@ The module will support several storage options. Since this is designed to be bo
 * Redis (coming)
 * Static (future)
 
+## Usage
+The following are pending configuration options. 
+
+<pre>
+var options = {
+  storage: { 
+    type: 'couch', 
+    auth: { ... } 
+  },
+  enabled: [ 
+    'login', 
+    'register',
+    'profile public', 
+    'profile private', 
+    'profile update',
+    or 'all'
+  ]
+};
+
+var userize = require('userize')( options );
+</pre>
+
 ## Configuration
 The following are pending configuration options. 
 
