@@ -16,7 +16,7 @@ This allows a logged in user to submit changes to their profile.
 
 ## Storage
 The module will support several storage options. 
-* CouchDB (beta) - use the 'CouchDB-API':https://github.com/dominicbarnes/node-couchdb-api Node module. 
+* CouchDB (beta) - use the https://github.com/dominicbarnes/node-couchdb-api Node module. 
 * MongoDB (coming)
 * Redis (coming)
 
