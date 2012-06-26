@@ -29,3 +29,5 @@ The following are pending configuration options.
 
 ## Installation
 This module is not ready for `npm`. Once it completed and submitted, it will installable using. `npm install userize`
+
+Travis Link
