@@ -2,15 +2,19 @@
   "name": "Userize",
   "version": "0.0.1",
   "description": "Ulta-light weight node.js API for basic user login, registration and profiles.",
+  "keywords": "micro restful api user login register",
   "engines": {
     "node": "0.6.17",
     "npm": "1.1.9"
   },
+  "bugs": { "url" : "http://github.com/owner/project/userize",
+    "email" : "stephan.smith.bc93@gmail.com"
+  },
   "dependencies": {
-    "crypto": "0.0.3",
     "express": "2.5.9",
     "request": "2.9.202",
-    "couchdb-api": "1.1.4"
+    "couchdb-api": "1.1.4",
+    "crypto": "0.0.3"
   },
   "scripts": {
     "start": "server.js"

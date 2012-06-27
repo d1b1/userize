@@ -3,7 +3,7 @@ var express    = require('express'),
     http       = require('http'),
     crypto     = require('crypto');
 
-var userize = require('./userize');
+var userize = require('./lib/userize');
 
 // ---------------------------------------------------
 
@@ -22,9 +22,9 @@ app.get('/api/profile/:user',      userize.profile );
 app.put('/api/profile/:user',      userize.updateProfile );
 app.post('/api/register',          userize.register );
 app.post('/api/login',             userize.login );
-app.post('/api/logout',            userize.logout );
+app.get('/api/logout',            userize.logout );
 
-var port = process.env.PORT || 4000;
+var port = process.env.PORT || 4100;
 app.listen(port, function() { 
-  console.log("StartUp: Userize" + port ); 
+  console.log("StartUp: Userize " + port ); 
 });
