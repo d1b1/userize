@@ -13,6 +13,6 @@
     "couchdb-api": "1.1.4"
   },
   "scripts": {
-    "start": "web.js"
+    "start": "server.js"
   }
 }
